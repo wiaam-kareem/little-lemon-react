@@ -1,0 +1,18 @@
+.text-overflow {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.overflow-maxLine-2 {
+  -webkit-line-clamp: 2;
+  -webkit-box-lines: 2;
+}
+.overflow-maxLine-3 {
+  -webkit-line-clamp: 3;
+  -webkit-box-lines: 3;
+}
+.overflow-maxLine-4 {
+  -webkit-line-clamp: 4;
+  -webkit-box-lines: 4;
+}
